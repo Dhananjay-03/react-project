@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+const a="https://www.youtube.com/watch?v=OloAP8p1k1w&list=PLwGdqUZWnOp3aROg4wypcRhZqJG3ajZWJ&index=14&ab_channel=ThapaTechnicalThapaTechnicalVerified"
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+<>
+<h1 contentEditable="true" > hello my nmae is xyz</h1>
+<h1 className="heading"> hii how are you</h1>
+<a href={a}>
+<img src="https://picsum.photos/200/300"/> </a>
+</>,
   document.getElementById('root')
 );
 
